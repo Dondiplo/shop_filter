@@ -1,0 +1,44 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(12, 135, 235);
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+
+  
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+.links ul li {
+  text-decoration: none;
+  padding: 15px 15px;
+  display: inline-block;
+  list-style: none;
+  font-size: 18px;
+}
+.links ul li a {
+  color: rgb(249, 245, 238);
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: rgb(26, 165, 229);
+  text-decoration: none;
+}
+
+h1 {
+  color: burlywood;
+}
